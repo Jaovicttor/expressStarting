@@ -37,7 +37,7 @@ app.get("/variavel/:variavel?/:idade?", function(req,res){
 app.listen(4000,function(erro){ //iniciando o servidor
 
     if(erro){
-        console.error('Deu erro seu merda');
+        console.error('Deu erro ao inicializar a aplicação');
     }else{
         console.info('O servidor foi iniciado com sucesso');
     }
